@@ -12,29 +12,25 @@ Build a solid, scalable understanding of Multimodal Machine Learning by implemen
 CS38-Multimodal-ML
 ├── README.md
 ├── Week1
-│   ├── Week1.md
-│   └── PINNs_Week1
+│   └── Week1.md
 ├── Week2
-│   ├── Week2.md
-│   └── PINNs_Week2
+│   └── Week2.md
 ├── Week3
-│   ├── Week3.md
-│   └── PINNs_Week3
+│   └── Week3.md
 ├── Week4
-│   ├── Week4.md
-│   └── PINNs_Week4
+│   └── Week4.md
 ├── Week5
-│   ├── Week5.md
-│   └── PINNs_Week5
+│   └── Week5.md
 ├── Week6
-│   ├── Week6.md
-│   └── PINNs_Week6
+│   └── Week6.md
 ├── Week7
-│   ├── Week7.md
-│   └── PINNs_Week7
+│   └── Week7.md
 ├── Week8
-    ├── Week8.md
-    └── PINNs_Week8
+│    └── Week8.md
+├── notebooks
+    ├── SOS_midterm_weeks1-4.ipynb
+    └── SOS_endterm_weeks5-8.ipynb
+    
 ```
 Each `WeekX.md` contains:
 
@@ -42,9 +38,10 @@ Each `WeekX.md` contains:
 - Topics covered and why they matter
 - Problems/assignments solved
 - Key results and figures
-
+- A pointer to the notebook (and relevant cells) implementing that week's work
 ---
-
+- There are two notebooks : `SOS_midterm_weeks1-4.ipynb` implements and verifies the full pipeline (dataset, encoders, model, InfoNCE loss) covered in Weeks 1–4, and `SOS_endterm_weeks5-8.ipynb` implements the training, evaluation, and all ablations covered in Weeks 5–8. Both are self-contained and can be run independently.**
+---
 ### What to Expect
 
 **Week 1 — Foundations of Multimodal ML**
@@ -96,10 +93,11 @@ Each `WeekX.md` contains:
 
 ---
 
-### How to Review the Work
+###  How to Review the Work
 
 1. Open `WeekX/WeekX.md` to read the weekly summary and findings.
-2. Open `WeekX/` for the Jupyter notebook implementing the solved problems.
+2. Open the relevant notebook in `notebooks/` — `SOS_midterm_weeks1-4.ipynb` for Weeks 1–4, `SOS_endterm_weeks5-8.ipynb` for Weeks 5–8 — for the code implementing that week's work. Each `WeekX.md` points to the specific cells covering it.
+
 
 ---
 
