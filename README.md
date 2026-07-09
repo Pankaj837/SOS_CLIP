@@ -45,7 +45,7 @@ Each `WeekX.md` contains:
 
 ---
 
-## What to Expect
+### What to Expect
 
 **Week 1 — Foundations of Multimodal ML**
 - Core challenges: representation, alignment, fusion, translation, co-learning
@@ -84,7 +84,7 @@ Each `WeekX.md` contains:
 
 ---
 
-## Dependencies
+### Dependencies
 - torch
 - torchvision
 - transformers
@@ -96,14 +96,14 @@ Each `WeekX.md` contains:
 
 ---
 
-## How to Review the Work
+### How to Review the Work
 
 1. Open `WeekX/WeekX.md` to read the weekly summary and findings.
 2. Open `WeekX/` for the Jupyter notebook implementing the solved problems.
 
 ---
 
-## Status
+### Status
 
 This repository contains completed work for Weeks 1–8 of the CS38 project.
 Submitted as End-Term Report.
