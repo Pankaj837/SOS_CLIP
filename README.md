@@ -5,7 +5,7 @@ This repository documents my week-by-week progress on the CS38 Summer of Science
 
 ### Project Goal
 
-Build a solid, scalable understanding of Multimodal Machine Learning by implementing a complete, modular CLIP-inspired image-text contrastive learning pipeline trained on Flickr30k — progressing from foundational theory to a fully evaluated dual-encoder retrieval system with hard-negative mining, fusion-strategy comparison, and backbone-freezing ablations.
+Build a solid, scalable understanding of Multimodal Machine Learning by implementing a complete, modular CLIP-inspired image-text contrastive learning pipeline trained on Flickr30k, progressing from foundational theory to a fully evaluated dual-encoder retrieval system with hard-negative mining, fusion-strategy comparison, and backbone-freezing ablations.
 
 ### Repo Layout
 ```
