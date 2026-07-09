@@ -27,7 +27,7 @@ CS38-Multimodal-ML
 │   └── Week7.md
 ├── Week8
 │    └── Week8.md
-├── notebooks
+├── Notebooks
     ├── SOS_midterm_weeks1-4.ipynb
     └── SOS_endterm_weeks5-8.ipynb
     
