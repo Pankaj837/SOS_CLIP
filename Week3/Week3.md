@@ -35,7 +35,7 @@ Studied why dual encoders (vs. cross-encoders) enable efficient large-scale retr
 
 ## Key Results
 
-Conceptual week: architecture decisions validated in Week 4's implementation.
+Conceptual week: architecture decisions validated in Week 4's implementation (`Notebooks/SOS_midterm_weeks1-4.ipynb`) and evaluated with real Recall@K numbers starting Week 5 (`Notebooks/SOS_endterm_weeks5-8.ipynb`, Cell 12 `evaluate_recall`). Architectural concepts implemented in Week 4 (`Notebooks/SOS_midterm_weeks1-4.ipynb`, Cells 1–2 `ImageEncoder`/`TextEncoder`, Cell 5 `CLIPModel`).
 
 ---
 
