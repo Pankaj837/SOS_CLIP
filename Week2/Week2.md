@@ -40,7 +40,7 @@ Implemented InfoNCE from scratch and verified it against the theoretical random-
 |---|---|---|
 | Random-model loss (batch=64) | log(64) = 4.1589 | 4.1578 ✅ |
 
-Confirms the loss implementation is correct, a random model should have maximum uncertainty across all 64 candidates.
+Confirms the loss implementation is correct, a random model should have maximum uncertainty across all 64 candidates. This verification is captured in `Notebooks/SOS_midterm_weeks1-4.ipynb`, Cell 6 (forward pass test) and Cell 8 (loss sanity check). This week, conceptual foundation for the loss function implemented in Week 4 (`Notebooks/SOS_midterm_weeks1-4.ipynb`, Cell 7 `infonce_loss`) and extended in Week 6 (`Notebooks/SOS_endterm_weeks5-8.ipynb`, Cell 6 `hard_negative_infonce_loss`).
 
 ---
 
