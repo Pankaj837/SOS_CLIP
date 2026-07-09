@@ -44,6 +44,7 @@ Built `ImageEncoder`, `TextEncoder`, `CLIPModel`, and `infonce_loss`, then ran a
 | Temperature (init) | 0.0700 |
 | InfoNCE Loss (untrained) | 4.1578 |
 
+- All results printed directly from `Notebooks/SOS_midterm_weeks1-4.ipynb`, Cell 4 (dataset instantiation, total samples), Cell 6 (forward pass test, embedding shapes/temperature), and Cell 8 (loss sanity check).
 ---
 
 ## Reflection Questions
@@ -58,6 +59,6 @@ That the loss implementation is correct, an untrained model with random embeddin
 
 ## Conclusion & Next Steps
 
-Week 4 delivered a verified, working pipeline, dataset, encoders, model, and loss, ready for real training.
+Week 4 delivered a verified, working pipeline, dataset, encoders, model, and loss-ready for real training.
 
 In **Week 5**, the training loop runs for real, for the first time.
