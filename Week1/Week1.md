@@ -37,7 +37,7 @@ Studied the five core challenges, the four fusion strategies, and real-world mul
 
 ## Key Results
 
-This week : conceptual foundation, every later design decision (dual encoder, late fusion, InfoNCE) traces back to this week's reasoning.
+This week : conceptual foundation, every later design decision (dual encoder, late fusion, InfoNCE) traces back to this week's reasoning. This choice was later tested empirically in Week 6, when an intermediate fusion variant was actually built and compared against the late-fusion baseline (see `Notebooks/SOS_endterm_weeks5-8.ipynb`, Cell 4 and Cell 11).
 
 ---
 
