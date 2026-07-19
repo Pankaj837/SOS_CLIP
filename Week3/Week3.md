@@ -19,7 +19,13 @@ Both outputs L2-normalized so dot product = cosine similarity.
 
 ### Recall@K
 
-Given a query, what fraction of the time does the correct match appear in the top K results? Computed in both directions (image→text, text→image) at K = 1, 5, 10.
+Given a query, what fraction of the time does the correct match appear in the top K results? Computed in both directions (image→text, text→image) at K = 1, 5, 10
+
+**Definition:** For Q queries, let rankᵢ be the position of the correct match for query i (rank 1 = top result). Then:
+
+Recall@K = (1/Q) · Σᵢ 𝟙[rankᵢ ≤ K]
+
+where 𝟙[·] equals 1 when the correct match falls within the top K and 0 otherwise, and the sum runs over all Q queries (i = 1, …, Q). Since each query has exactly one correct match, this is simply the fraction of queries whose correct match appears in the top K.
 
 ### Related Work
 
