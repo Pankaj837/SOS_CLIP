@@ -17,6 +17,15 @@ logits = (image_embeddings @ text_embeddings.T) / temperature.exp()
 labels = torch.arange(N)
 loss = (cross_entropy(logits, labels) + cross_entropy(logits.T, labels)) / 2
 ```
+**Definition:** For an anchor x with positive x⁺ and K negatives:
+
+L = −log( exp(sim(x, x⁺)/τ) / [ exp(sim(x, x⁺)/τ) + Σₖ₌₁ᴷ exp(sim(x, x⁻ₖ)/τ) ] )
+
+Here **x** is the anchor embedding (e.g. an image), **x⁺** its matching positive (the paired caption), **x⁻ₖ** the K non-matching negatives, **sim(·,·)** the similarity function (cosine similarity, i.e. the dot product of L2-normalized embeddings), and **τ** the temperature. In the batched CLIP setting, every other item in a batch of N pairs is a negative, so K = N − 1, and the loss is applied in both directions and averaged.
+
+**Why InfoNCE, and what it measures.** InfoNCE frames training as instance discrimination — picking the correct positive among many distractors, which maximizes a lower bound on the mutual information between the two modalities. Minimizing it pulls matched pairs together and pushes mismatched pairs apart: exactly the cross-modal alignment this project needs. It also explains the sanity check below — with random embeddings the model can only assign each of N candidates probability 1/N, giving −log(1/N) = log(N) ≈ 4.16 for N = 64.
+
+
 
 ### Temperature
 
